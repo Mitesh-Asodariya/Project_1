@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+    column-gap: 0.75rem;
+}
+
+.side_bar {
+    width: 280px;
+    border-radius: 1rem;
+    background-color: black;
+    /* background-color: red; */
+
+}
+
+.main_content {
+
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.music_player {
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 72px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    background-color: #121212;
+    margin-bottom: 0.5rem;
+}
+
+.nav_option {
+    height: 2.5rem;
+    padding: 0.25rem 0.75rem;
+    opacity: 0.6;
+    justify-self: center;
+}
+
+.nav_option i {
+    font-size: 1.25rem;
+}
+
+.nav_option a {
+    margin-left: 0.75rem;
+
+}
+
+.nav_option:hover {
+    opacity: 1;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    padding: 1.25rem 1rem;
+}
+
+.lib-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+
+}
+
+.one {
+    opacity: 0.7;
+}
+
+.one a {
+    margin-left: 0.75rem;
+}
+
+.one:hover {
+    opacity: 1;
+}
+
+.icons i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.icons i:hover {
+
+    opacity: 1;
+}
+
+.box-one {
+    background-color: #242424;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    margin-top: 12px;
+}
+
+.btn-one {
+    height: 2.45rem;
+    border-radius: 1.75rem;
+    font-weight: bolder;
+    width: 8.75rem;
+}
+
+.btn-two {
+    height: 2.45rem;
+}
+
+.main_content {
+    padding: 0 0.95rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+ul button {
+    height: 2.25rem;
+    width: 142px;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+
+.back-forward {
+    display: flex;
+    font-size: 1.25rem;
+    column-gap: 1rem;
+
+}
+
+.back-forward i {
+    border-radius: 50%;
+    /* padding: 15px; */
+    opacity: 0.6;
+
+}
+
+.back-forward i:hover {
+    opacity: 1;
+
+}
+
+header {
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .premium {
+        visibility: hidden;
+    }
+}
+
+.nav-icon {
+    opacity: 0.7;
+}
+
+.nav-icon:hover {
+    opacity: 1;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #171717;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    height: 216px;
+    width: 170px;
+    margin-left: 0.45rem;
+    margin-top: 0.45rem;
+}
+
+.card:hover {
+    background-color: #252525;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.info {
+    opacity: 0.8;
+    font-size: 0.85rem;
+}
+
+.card-img {
+    width: 9rem;
+    border-radius: 0.25rem;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 780px;
+    padding: 1rem 2.25rem;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+#Footer-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.75rem;
+}
+
+#Footer-ul li {
+    opacity: 0.4;
+}
+
+#Footer-ul li:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.About-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+
+.Social-Media{
+    display: flex;
+    column-gap: 1rem;
+    padding-top: 1.95rem;
+}
+.Social-Media i{
+    opacity: 0.7;
+}
+.Social-Media i:hover{
+    opacity: 1;
+    font-size: 1.25rem;
+}
+#footer-ul-two{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-ul-two li{
+    opacity: 0.7;
+}
+#footer-ul-two li:hover{
+    opacity: 1;
+}
+.item-last{
+    justify-self: end;
+}
+.album{
+    width: 25%;
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    column-gap: 0.9rem;
+}
+.playback-control{
+    width: 50%;
+    flex: 1;
+    /* background-color: green; */
+}
+.controls{
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.music_player{
+    display: flex;
+    
+}
+.control-btn{
+    height: 60%;
+    /* background-color: aqua; */
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control-btn i{
+   margin: 0 1rem;
+}
+.range{
+   display: flex;
+   align-items: flex-start;
+    height: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.range-control{
+    width: 80%;
+    appearance: none;
+}
+.range-control::-webkit-slider-runnable-track{
+    height: 0.19rem;
+}
+.range-control::-webkit-slider-thumb{
+    appearance: none;
+    height: 0.95rem;
+    width: 0.95rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -6px;
+}
+.fa-circle-play{
+    font-size: 2.12rem;
+    
+}
+.fa-circle-play:hover{
+    transform: scale(1.1);
+
+}
+
+.time{
+    opacity: 0.7;
+    font-weight: lighter;
+    font-size: 0.85rem;
+   
+}
+.buttons{
+    opacity: 0.7;
+}
+.buttons:hover{
+    opacity: 1;
+}
+.song-logo{
+    border-radius: 0.55rem;
+}
+
+.like{
+    opacity: 0.7;
+    font-size: 1.25rem;
+}
+.like:hover{
+    opacity: 1;
+    font-size: 1.35rem;
+}
+.songs-info div{
+
+   opacity: 0.7;
+}
+.info-2{
+    font-size: 0.74rem;
+}
+.songs-info div:hover{
+   text-decoration: underline;
+   opacity: 1;
+}
+.fa-solid{
+    opacity: 0.7;
+}
+.fa-solid:hover{
+    opacity: 1;
+}
